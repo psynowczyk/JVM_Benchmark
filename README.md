@@ -21,7 +21,7 @@ Parametry testów:
 
 | Test                                                     | Średni wynik w milisekundach |
 |----------------------------------------------------------|------------------------------|
-| odczyt i zapis pola publicznego - bezpośredno            | 0.74                         |
+| odczyt i zapis pola publicznego - bezpośredno            | 0.39                         |
 | odczyt i zapis pola publicznego - refleksja              | 80.51                        |
-| wywołanie metody publicznej z argumentami - bezpośrednio | 0.23                         |
+| wywołanie metody publicznej z argumentami - bezpośrednio | 0.26                         |
 | wywołanie metody publicznej z argumentami - refleksja    | 205.6                        |
