@@ -21,7 +21,7 @@ Parametry testów:
 
 | Test                                                     | Wynik |
 |----------------------------------------------------------|-------|
-| odczyt i zapis pola publicznego - bezpośredno            | 0.39  |
+| odczyt i zapis pola publicznego - bezpośrednio           | 0.39  |
 | odczyt i zapis pola publicznego - refleksja              | 80.51 |
 | wywołanie metody publicznej z argumentami - bezpośrednio | 0.26  |
 | wywołanie metody publicznej z argumentami - refleksja    | 205.6 |
