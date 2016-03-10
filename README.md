@@ -1,5 +1,10 @@
 # JVM Benchmark: refleksje
 
+Uruchomienie:
+```sh
+mvn exec:java
+```
+
 Zasoby systemu:
 ```sh
 System: Linux Mint 17.3
