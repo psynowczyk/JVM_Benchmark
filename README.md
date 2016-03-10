@@ -19,22 +19,9 @@ Parametry testów:
 - wywołań metod / odczyt pól na jeden pomiar: 10 milionów
 - wynik: uśredniony czas w milisekundach
 
-Bezpośredni odczyt i zapis pola publicznego
-```sh
-0
-```
-
-Odczyt i zapis pola publicznego za pomocą refleksji
-```sh
-75
-```
-
-Bezpośrednie wywołanie metody publicznej z argumentemi
-```sh
-0
-```
-
-Wywołanie metody publicznej z argumentemi za pomocą refleksji
-```sh
-206
-```
+| Test                                                          | Wynik w milisekundach |
+|---------------------------------------------------------------|-----------------------|
+| Bezpośredni odczyt i zapis pola publicznego                   | 0                     |
+| Odczyt i zapis pola publicznego za pomocą refleksji           | 75                    |
+| Bezpośrednie wywołanie metody publicznej z argumentami        | 0                     |
+| Wywołanie metody publicznej z argumentami za pomocą refleksji | 206                   |
