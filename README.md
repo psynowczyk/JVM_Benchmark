@@ -15,14 +15,13 @@ OpenJDK 64-Bit Server VM (build 24.85-b03, mixed mode)
 ```
 
 Parametry testów:
-- 2 sekundy rozgrzewki
-- pomiarów czasu: 100
-- instrukcji na jeden pomiar czasu: 10 milionów
-- wynik: uśredniony czas w milisekundach
+- 100 pomiarów i 1000 instrukcji na pomiar podczas rozgrzewki
+- 100 pomiarów i 10 milionów instrukcji na pomiar podczas testu
+- wynik: uśredniony czas wykonania 10 milionów instrukcji w milisekundach
 
 | Test                                                     | Średni wynik w milisekundach |
 |----------------------------------------------------------|------------------------------|
-| odczyt i zapis pola publicznego - bezpośredno            | 0.59                         |
-| odczyt i zapis pola publicznego - refleksja              | 76.33                        |
-| wywołanie metody publicznej z argumentami - bezpośrednio | 0.53                         |
-| wywołanie metody publicznej z argumentami - refleksja    | 220.11                       |
+| odczyt i zapis pola publicznego - bezpośredno            | 0.74                         |
+| odczyt i zapis pola publicznego - refleksja              | 80.51                        |
+| wywołanie metody publicznej z argumentami - bezpośrednio | 0.23                         |
+| wywołanie metody publicznej z argumentami - refleksja    | 205.6                        |
